@@ -1,0 +1,28 @@
+.otp-field {
+    display: flex;
+  }
+  .otp-field input {
+    width: 24px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px;
+    border: 2px solid #fd5631;
+    background: #fff;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    transition: all 0.1s;
+    height: 50px;
+  }
+  .otp-field input:focus {
+    border: 2px solid #ff5227;
+    box-shadow: 0 0 2px 2px #fdaf7c6a;
+  }
+  .disabled {
+    opacity: 0.5;
+  }
+  .space {
+    margin-right: 1rem !important;
+  }
